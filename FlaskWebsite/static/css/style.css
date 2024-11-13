@@ -1,0 +1,115 @@
+.controller {
+    position: relative;
+    top: 20%;
+    left: 40%;
+  }
+  
+  .text1 {
+    position: absolute;
+    left: 40px;
+    cursor: default;
+    user-select: none;
+    color:#864dd5; 
+    font-family: "Great Vibes" cursive;
+    font-size: 50px;
+    line-height: 160px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff; 
+  }
+  
+  .text2 { 
+    cursor: default;
+    user-select: none;
+    position: absolute;
+    color: #7a7c7f;
+    font-size: 29px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 45px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    padding-top: 20px; 
+    top: 30%;
+  }
+  
+  .text3 { 
+    cursor: default;
+    user-select: none;
+    font-style: italic;
+    color: #B6B6B6;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff; 
+  }
+  
+  .arcade {
+    font-family: 'ArcadeClassic', sans-serif;
+    cursor: default;
+    user-select: none;
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  
+  
+  .button-up {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 75px 129.9px 75px;
+    border-color: transparent transparent #00aeff transparent;
+    display: inline-block;
+  }
+  
+  .button-up:active {
+    border-color: transparent transparent #4c00ff transparent;
+  }
+  
+  .button-down {
+    position: absolute;
+    top: 300px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 129.9px 75px 0 75px;
+    border-color: #00aeff transparent transparent transparent;
+    display: inline-block;
+    }
+    
+  .button-down:active {
+    border-color: #4c00ff transparent transparent transparent;
+  }
+  
+  .button-left {
+    position: absolute;
+    top: 140px;
+    left: -150px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 129.9px 75px 0;
+    border-color: transparent #00aeff transparent transparent;
+    display: inline-block;
+  }
+      
+  .button-left:active {
+    border-color: transparent #4c00ff transparent transparent;
+  }
+  
+  .button-right {
+    position: absolute;
+    top: 140px;
+    left: 170px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 0 75px 129.9px;
+    border-color: transparent transparent transparent #00aeff;
+    display: inline-block;
+  }
+        
+  .button-right:active {
+    border-color: transparent transparent transparent #4c00ff;
+  }
+      
